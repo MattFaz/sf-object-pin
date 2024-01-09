@@ -9,13 +9,6 @@
 
 ---
 
-## Contents
-
-1. [Overview](#overview)
-2. [Screenshots](#screenshots)
-3. [User Guide](#user-guide)
-4. [Notes](#notes)
-
 ## Overview
 
 The Salesforce Object Manager tab is frequently used by Salesforce Administrators and Developers, however currently there is no way to pin your favorite _(or most frequently visited)_ objects to the top.
@@ -24,9 +17,8 @@ This Chrome Extension aims to provide an easy way to pin your most used objects 
 
 ## Screenshots
 
-## User Guide
+![Screenshot of Object Manager Page](/images/screenshot1.png)
 
-### Chrome
+---
 
-1. Download Extension:
-2. Select xxx
+<p align="center">Found an issue or requesting a new feature? Please <a href="https://github.com/MattFaz/sf-object-pin/issues/new">create a Gtithub issue</a>!</p>
