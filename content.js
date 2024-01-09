@@ -68,10 +68,8 @@ const addPinnedItemsDiv = () => {
     }
 };
 
-
-
 // Wait for the table to be populated
-function waitForTablePopulation(table, callback) {
+const waitForTablePopulation = (table, callback) => {
     if (table.querySelector('tbody tr')) {
         callback();
     } else {
@@ -80,7 +78,7 @@ function waitForTablePopulation(table, callback) {
 }
 
 // Function to add the pin button to a row
-function addPinButtonToRow(row, pinnedItems) {
+const addPinButtonToRow = (row, pinnedItems) => {
     let uniqueId = row.querySelector('td').textContent;
     let url = row.querySelector('th a').href;
 
@@ -99,7 +97,7 @@ function addPinButtonToRow(row, pinnedItems) {
 }
 
 // Function to handle table updates
-function handleTableUpdate(table) {
+const handleTableUpdate = (table) => {
     let pinnedItems = JSON.parse(localStorage.getItem('pinnedItems') || '{}');
 
     let rows = table.querySelectorAll('tbody tr');
@@ -111,7 +109,7 @@ function handleTableUpdate(table) {
 }
 
 // Function to toggle pin
-function togglePin(uniqueId, url, button) {
+const togglePin = (uniqueId, url, button) => {
     let pinnedItems = JSON.parse(localStorage.getItem('pinnedItems') || '{}');
 
     if (pinnedItems[uniqueId]) {
@@ -127,7 +125,7 @@ function togglePin(uniqueId, url, button) {
 }
 
 // Function to update the pinned items div
-function updatePinnedItemsDiv() {
+const updatePinnedItemsDiv = () => {
     let pinnedDiv = document.querySelector('#pinned-items');
     if (!pinnedDiv) {
         pinnedDiv = document.createElement('div');
@@ -150,7 +148,7 @@ function updatePinnedItemsDiv() {
 }
 
 // Observe the table for new rows
-function observeTable(table) {
+const observeTable = (table) => {
     let observer = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
             if (mutation.type === 'childList') {
