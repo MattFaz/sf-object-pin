@@ -7,22 +7,9 @@
   cursor: pointer;
 }
 
-.pinned-items-icon {
-  background: url("chrome-extension://__MSG_@@extension_id__/images/logo128.png")
-    no-repeat center;
-  border: none;
-  width: 50%; /* Adjust as per your icon's size */
-  height: 50%;
-  cursor: pointer;
-}
-
-.pin-button.pinned {
-  background: url("chrome-extension://__MSG_@@extension_id__/images/pin-green.png")
-    no-repeat center;
-}
-
 .pinned-items-container {
   display: flex;
+  row-gap: 10px; /* Space between header and items */
   flex-direction: column;
   align-items: center; /* Align header and icon vertically */
   width: 100%; /* Ensure the container takes full width */
@@ -32,30 +19,42 @@
   border-radius: 4px; /* Rounded corners */
   border: 1px solid #ccc; /* Border around the container */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Horizontal offset, vertical offset, blur radius, shadow color */
+  padding: 10px; /* Padding around the container */
 }
 
 .header-container {
   display: flex;
   align-items: center; /* Align header and icon vertically */
-  margin-bottom: 10px; /* Space between the header-icon container and the buttons */
+  font-size: large; /* Font size for the header */
+  font-weight: bold; /* Bold font for the header */
+}
+
+.pinned-items-icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/images/logo32.png")
+    no-repeat center;
+  background-size: contain; /* Scale the background image to fit inside the button */
+  border: none;
+  width: 24px; /* Adjust width as needed */
+  height: 24px; /* Adjust height as needed */
+  cursor: pointer;
+}
+
+.pinned-items-header {
+  text-align: center; /* Center the header text */
+  margin-left: 10px; /* Space between icon and header */
+}
+
+.pin-button.pinned {
+  background: url("chrome-extension://__MSG_@@extension_id__/images/pin-green.png")
+    no-repeat center;
 }
 
 .pinned-items-style {
   display: flex; /* Use Flexbox */
   flex-wrap: wrap; /* Allow wrapping onto the next line */
   gap: 10px; /* Space between items */
-  padding: 10px; /* Padding around the container */
   justify-content: center; /* Center the items (horizontally) */
   width: 100%;
-  margin: 0 0 12px 0; /* Margin at the bottom */
-}
-
-.pinned-items-header {
-  text-align: center; /* Center the header text */
-  color: #333; /* Set the text color */
-  padding: 10px; /* Add some padding */
-  margin-right: 10px; /* Add some space between the header and the icon */
-  /* Add any other styles as needed */
 }
 
 .pinned-item-button {

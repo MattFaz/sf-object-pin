@@ -51,11 +51,11 @@ const addPinnedItemsDiv = () => {
         const button = document.createElement('button');
         button.className = 'pinned-items-icon';
         button.onclick = () => {
-            console.log('Icon clicked!');
+            window.open('https://github.com/MattFaz/sf-object-pin', '_blank');
         };
 
-        headerContainer.appendChild(header);
         headerContainer.appendChild(button);
+        headerContainer.appendChild(header);
         containerDiv.appendChild(headerContainer);
 
         const pinnedItemsDiv = document.createElement('div');
