@@ -3,10 +3,6 @@
     "name": "Salesforce Object Pinner",
     "description": "Pin Salesforce Objects to the top of the Object Manager list",
     "version": "1.00",
-    "permissions": [
-        "activeTab",
-        "storage"
-    ],
     "content_scripts": [
         {
             "matches": [
