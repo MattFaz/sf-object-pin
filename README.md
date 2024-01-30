@@ -1,7 +1,7 @@
 <h1 align="center">Salesforce Object Pin</h1>
 
 <p align="center">
-  <img src="images/logo.png"
+  <img src="documentation/logo.png"
        width="200"
        height="200">
 <p align="center">
@@ -17,7 +17,7 @@ This Chrome Extension aims to provide an easy way to pin your most used objects 
 
 ## Screenshots
 
-![Screenshot of Object Manager Page](/images/screenshot1.png)
+![Screenshot of Object Manager Page](/documentation/screenshot1.png)
 
 ---
 
