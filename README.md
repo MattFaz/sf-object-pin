@@ -6,11 +6,9 @@
        height="200">
 <p align="center">
 <h4 align="center">Pin Objects to the top of Object Manager</h4>
+<p align="center">Install from the <a href="https://chromewebstore.google.com/detail/salesforce-object-pinner/hflnfaodmoephpnkoocmpgblpimobcpl">Chrome Web Store</a></p>
 
 ---
-
-[![Chrome Extension](documentation/chrome-logo.png)](http://google.com.au/)
-Click logo to go to Chrome Store and install the Extension.
 
 ## Overview
 
