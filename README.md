@@ -9,6 +9,9 @@
 
 ---
 
+[![Chrome Extension](documentation/chrome-logo.png)](http://google.com.au/)
+Click logo to go to Chrome Store and install the Extension.
+
 ## Overview
 
 The Salesforce Object Manager tab is frequently used by Salesforce Administrators and Developers, however currently there is no way to pin your favorite _(or most frequently visited)_ objects to the top.
