@@ -2,21 +2,20 @@
     "manifest_version": 3,
     "name": "Salesforce Object Pinner",
     "description": "Pin Salesforce Objects to the top of the Object Manager list",
-    "version": "1.00",
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*.salesforce.com/lightning/setup/ObjectManager/*",
-                "https://*.lightning.force.com/lightning/setup/ObjectManager/*"
-            ],
-            "js": [
-                "content.js"
-            ],
-            "css": [
-                "content.css"
-            ]
-        }
+    "version": "1.01",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "webNavigation"
     ],
+    "host_permissions": [
+        "https://*.salesforce.com/*",
+        "https://*.lightning.force.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "web_accessible_resources": [
         {
             "resources": [
