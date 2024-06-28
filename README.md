@@ -1,14 +1,6 @@
 <h1 align="center">Salesforce Object Pin</h1>
 
-<p align="center">
-  <img src="documentation/logo.png"
-       width="200"
-       height="200">
-<p align="center">
-<h4 align="center">Pin Objects to the top of Object Manager</h4>
-<p align="center">Install from the <a href="https://chromewebstore.google.com/detail/salesforce-object-pinner/hflnfaodmoephpnkoocmpgblpimobcpl">Chrome Web Store</a></p>
-
----
+![img1.png](/documentation/img1.png)
 
 ## Overview
 
@@ -23,6 +15,13 @@ This Userscript aims to provide an easy way to pin your most used objects by add
     -   Firefox: [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 
 ## Process
+
+-   Copy the code from [sf-object-pin.user.js](/sf-object-pin.user.js) into your Userscrupt extension ([or click this link](https://github.com/MattFaz/sf-object-pin/raw/main/sf-object-pin.user.js))
+-   Browse to the Salesforce Object Manager
+
+## TODO / Notes:
+
+-   [ ] Bug: Currently only works when you load directly onto the Object Manager page _(or refresh page when on the Object Manager)_. Need to fix this so that it always appears when you navigate to Object Manager
 
 ---
 
