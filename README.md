@@ -14,12 +14,16 @@
 
 The Salesforce Object Manager tab is frequently used by Salesforce Administrators and Developers, however currently there is no way to pin your favorite _(or most frequently visited)_ objects to the top.
 
-This Chrome Extension aims to provide an easy way to pin your most used objects by adding a Pin to each row and when selected, adding it as a buttom at the top of the Object Manager table.
+This Userscript aims to provide an easy way to pin your most used objects by adding a Pin to each row and when selected, adding it as a buttom at the top of the Object Manager table.
 
-## Screenshots
+## Prerequisites
 
-![Screenshot of Object Manager Page](/documentation/screenshot1.png)
+-   A Userscript extension installed into your browser _(this was tested using ViolentMonkey)_
+    -   Chrome: [ViolentMonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=en) or [TamperMonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+    -   Firefox: [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+
+## Process
 
 ---
 
-<p align="center">Found an issue or requesting a new feature? Please <a href="https://github.com/MattFaz/sf-object-pin/issues/new">create a Gtithub issue</a>!</p>
+<i align="center">Previously this was a Chrome Extension, this was discontinued due and moved into a Userscript to allow for easier development. The old extension can be found in the [archive_extension.zip](/archive_extension.zip) file.</i>
